@@ -1,0 +1,172 @@
+/*GENERALSTYLE*/
+body {
+	font-family: fira sans, Arial;
+	font-size: 100%
+	}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+
+}
+p {
+	font-size: 13px;
+	line-height: 1.3em;
+}
+.conteiner{
+	margin: 0 auto;
+	width: 960px;
+}
+
+/*Nav*/
+.navigation {
+	background: #C0C0C0;
+	border-color: black;
+	min-height: 64px;
+}
+.navigation li {
+	float: left;
+	width: 100px;
+}
+.navigation a {
+	display: block;
+	color: black;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+	
+}
+ .navigation li a:hover {
+ 	color: yellow;
+ background-color: black;
+ }
+
+
+
+ /*LOGIN*/
+ .login {
+ 	padding: 15px 0;
+ 	float:  right;
+	}
+	.login input[type="Text"],
+	.login input[type="number"] {
+		padding: 5px;
+		margin-right: 5px;
+		border: 1px solid transparent;
+		border-radius: 5px;
+		outline: none;
+	}
+
+	.login input[type="submit"] {
+		padding: 5px 15px;
+		border: 1px solid #808080;
+		border-radius: 5px;
+	}
+	.login input[type="submit"]:hover, 
+	button:hover
+	 {
+		background-color: darkgrey;
+		color: white;
+	}
+
+
+
+
+/*Header*/
+.conteiner1{
+	margin: 0 auto;
+	padding: 0;
+}
+.header {
+	padding-top: 0;
+	background-image: url(IMG_0510.jpg);
+	background-size: 1366px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 700px;
+
+
+}
+.header h1,
+.header h2 {
+	font-family: Vollkorn;
+	font-size: 48px;
+	text-align: center;
+	
+}
+ 
+.header h1{
+	padding-top: 550px;
+}
+
+
+ /*MAIN*/
+.main {
+  	background-color: #f2ebe5;
+	 }
+
+ .colections {
+ 	overflow: auto;
+ 	 	 }
+ 	.colection-title {
+  		padding-bottom: 5px;
+ 		border-bottom: 1px solid #777;
+ 		font-size: 36px;
+ 	}
+ 	.colection-item-out {
+ 		display: inline-block;
+ 		float: left;
+ 		padding-left: 5px;
+ 		padding-right: 5px;
+ 		width: 33.33%;
+ 		box-sizing: border-box;
+ 	}
+ 	 .colections > div:first-child {
+ 	 	padding-left: 0;
+ 	 	padding-right: 5px;
+ 	 }
+ 	 .colections > div:last-child {
+ 	 	padding-left: 5 px;
+ 	 	padding-right: 0;
+ 	 }
+ 	 	.colection-item img {
+   		width: 100%;
+ 	}
+ 	.colection-item video {
+ 		align-items: center;
+ 	}
+ 	.colection-text {
+ 		padding: 0px 20px 20px 20px;
+ 		 	}
+    .colection-text h3 {
+    	overflow: hidden;
+    	white-space: nowrap;
+    	text-overflow: ellipsis;
+    	text-align: center;
+
+}
+
+ 	.colection-text p {
+ 		height: 75px;
+ 		overflow: hidden;
+ 	} 
+
+
+ 	.colection-text button {
+ 		padding: 10px;
+ 		border: 1px solid #808080;
+ 		border-radius: 5px;
+ 		outline: none;
+ 		 	 	}
+ 	/*FOOTER*/	 	 	
+ 	.footer {
+ 		background-color: #C0C0C0 ;
+ 		color: black;
+ 		
+ 		
+	  	}
